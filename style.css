@@ -6,7 +6,7 @@
 
 }
 html{
-    background-color: lightblue;
+    background-color: #ade8f4;
     scroll-behavior: smooth;
 }
 body{
@@ -47,21 +47,24 @@ a,.btn{
     list-style: none;
     gap: 2rem;
     font-size: 1.5rem;
+   
 
 }
 .nav-logo{
     font-size: 2rem;
     font-weight: 600;
+    color: #ff0a54;
 }
 a{
     text-decoration: none;
     color: black;
 }
-nav a:hover{
-    color: rgb(57, 216, 97);
+.nav-links a:hover{
+   color: #d90416;
     text-decoration: underline;
     text-underline-offset: 1rem;
 }
+
 .nav-logo:hover{
    cursor: pointer;
 }
@@ -87,6 +90,7 @@ nav a:hover{
 }
 .profile-title{
     font-size: 3.3rem;
+  
 
 }
 .profile-text-2{
@@ -96,7 +100,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     padding: 5rem 3rem;
     border-radius: 2rem;
     gap: 1rem;
@@ -156,6 +160,11 @@ gap: 1rem;
 }
 .about-text{
     text-align: center;
+    color: black;
+    font-size: x-large;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
 }
 /*----------------------Skills -----------------*/
 #skills{
@@ -250,7 +259,7 @@ color: #6c6c6c;
 }
 .contact-containers{
    
-    border:0.1rem solid #555555;
+   /* border:0.1rem solid #555555;*/
     border-radius: 2rem;
     height: 5rem;
     padding: 0.5rem 2rem;
